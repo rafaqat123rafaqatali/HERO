@@ -1,0 +1,390 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: black !important;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  text-decoration: underline 1px solid red;
+}
+
+#cart i {
+  font-size: 25px;
+  padding-left: 20px;
+  color: #333;
+  padding-right: 5%;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+marquee {
+  color: rgb(255, 184, 6);
+  font-size: 24px;
+  background-color: #333;
+  padding: 10px;
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.bg img {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.bg h1 {
+  background: linear-gradient(45deg, gold, #eb5b97);
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.content {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Product Listings Styles */
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.product-item {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.product-item h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.product-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.add-to-cart-btn {
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(43, 39, 39);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #45a049;
+}
+
+#cartButton{
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 1% 3%;
+  text-transform: uppercase;
+  border-radius:20px;
+  margin-left: 6%;
+  margin-bottom: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0%;
+}
+
+#cartButton:hover{
+  background-color: #45a049;
+}
+/* Shopping Cart Styles */
+.add-to-cart-btn {
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #45a049;
+}
+
+
+/* About Us Section Styles */
+#about-us {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+#about-us h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  color: black;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0% 5%;
+}
+
+span {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Team Section Styles */
+#team {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#team h2 {
+  padding-top: 10px;
+  font-size: 50px;
+}
+
+.cardd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member-card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member-card h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.team-member-card p {
+  margin: 5px 0 15px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Hover effect for team member cards */
+.team-member-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
+
+/* Profile Section Styles */
+#profile {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Footer Styles */
+
+
+.footer {
+  background-color: #b12525;
+  padding: 40px 0;
+}
+
+.footer h3 {
+  color: #333;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  padding: 5px 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons i {
+  color: #555;
+  font-size: 20px;
+}
+
+.social-icons a:hover i {
+  color: #e67e22;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bolder;
+  
+}
+/* responsiveness */
+@media screen and (max-width: 425px) {
+  .cardd {
+    display: block;
+  }
+  .bg {
+    display: block;
+      /* flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: whitesmoke;
+      padding: 20px; */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cardd {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cardd {
+    display: block;
+  }
+}

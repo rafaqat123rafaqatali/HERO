@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- css file -->
+  <link rel="stylesheet" href="project.css">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      <a class="nav-link" href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <marquee behavior="scroll" direction="left">Welcome to our E-commerce Store!</marquee>
+    <div class="bg">
+      <div class="content">
+        <div class="h1">
+          <h1> <i>Winter Collection</i></h1>
+        </div>
+        <div class="img">
+          <img src="media/dress_files/8a-1-scaled-1-removebg-preview.png" alt="no image found">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Product Listings Section -->
+  <section id="products">
+  </section>
+
+
+  <!-- Shopping Cart Section -->
+  <div id="shopping-cart">
+    <div class="container">
+      <button id="cartButton">Open Cart</button>
+    </div>
+
+    <div id="cartModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Cart</h2>
+        <ul id="cart-items" style="display: none;">
+
+        </ul>
+        <span id="cart-total" style="display: none;"></span>
+        <ul id="cart-items-modal">
+          <!-- Cart items will be dynamically added here -->
+        </ul>
+        <div class="bill">
+        <p>Total Bill: <span id="total-bill-modal">0</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us Section -->
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>
+      Shop online latest range of <span>
+        Pakistani Pret wear, ready-to-wear, unstitched
+        dresses & latest spring/summer
+      </span> arrival by Sifona.
+    </p>
+    <p>
+      Sifona is an emerging brand in Pakistan which deals with designer dresses at affordable prices. Sifona provides
+      premium fabric to its customers which is breathable and soft in this harsh weather of summer. Sifona deals in
+      <span>
+        stitched and unstitched dresses
+      </span>, also they have a value proposition against their competitors as they provide
+      branded stitching services for their unstitched dresses.
+    </p>
+    <p>
+      Sifona launches several collections in a year which include <span>
+        Organza, Chiffon, Velvet, Linen, and Lawn
+      </span>. Sifona
+      assures to never compromise on quality, they bring their collections in all seasons which range from printed to
+      heavily embroidered party wears. These clothes are a fusion of ethnicity and modernity which is exceptional for an
+      emerging brand.
+    </p>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team">
+    <h2>Our Team</h2>
+    <div class="cardd">
+      <div class="team-member-card">
+        <img src="media/dress_files/5-1-scaled-10-300x450.jpg" alt="Team Member 1">
+        <h3>Black with Purple</h3>
+        <button class="button">Add to cart</button>
+      </div>
+      <div class="team-member-card">
+        <img src="media/dress_files/38-1-scaled-1-300x450.jpg" alt="Team Member 1">
+        <h3>Blue</h3>
+        <button class="button">Add to cart</button>
+      </div>
+      <div class="team-member-card">
+        <img src="media/dress_files/2-16-scaled-2-300x450.jpg" alt="Team Member 1">
+        <h3>Red</h3>
+        <button class="button">Add to cart</button>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Profile Section -->
+  <section id="profile">
+  </section>
+
+  <!-- Footer Section -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Information</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Shipping Information</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Customer Service</h3>
+          <ul>
+            <li>Contact Us</li>
+            <li>Returns</li>
+            <li>Site Map</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>My Account</h3>
+          <ul>
+            <li>My Account</li>
+            <li>Order History</li>
+            <li>Wish List</li>
+            <li>Newsletter</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>&copy; 2023 Your Company</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="project.js"></script>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <script src="project.js"></script>
+
+  <script>
+
+  </script>
+
+
+</body>
